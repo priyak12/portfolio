@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priyanka Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main class="main-content">
+      <section class="left-section">
+        <div class="left-content">
+          <div class="profile">
+            <div class="image"></div>
+            <img src="/DSC00672.JPG" alt="priyanka" />
+          </div>
+          <div class="wrapper">
+            <div class="like">
+              <i
+                onclick="like()"
+                id="li"
+                class="fa-sharp fa-solid fa-thumbs-up"
+              ></i>
+            </div>
+            <div class="like">
+              <i
+                onclick="dislike()"
+                id="di"
+                class="fa-sharp fa-solid fa-thumbs-down"
+              ></i>
+            </div>
+          </div>
+          <script>
+            function like() {
+              document.getElementById("li").style.color = "blue";
+              document.getElementById("li").style.color = "grey";
+            }
+            function dislike() {
+              document.getElementById("di").style.color = "blue";
+              document.getElementById("li").style.color = "grey";
+            }
+          </script>
+          <div>
+            <h2 class="name">Priyanka Kalisetty</h2>
+            <p class="career">Computer Science Graduate</p>
+          </div>
+          <div class="contact-info">
+            <h3 class="main-title">Contact Info</h3>
+            <ul>
+              <li>
+                <i class="fa fa-phone"></i>
+                346-777-1545
+              </li>
+              <li>
+                <i class="fa fa-envelope"></i>
+                priyakalisetty@gmail.com
+              </li>
+              <li>
+                <i class="fa fa-linkedin"></i>
+                linkedin.com/priyakalisetty
+              </li>
+
+              <li>
+                <i class="fa fa-map-marker"></i>
+                Irving, Texas
+              </li>
+            </ul>
+          </div>
+
+          <div class="skills-section">
+            <h3 class="main-title">Skills</h3>
+            <ul>
+              <li>
+                <p class="skill-title">Javascript</p>
+                <div class="progress-bar">
+                  <div class="progress js-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">python</p>
+                <div class="progress-bar">
+                  <div class="progress p-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">html/css</p>
+                <div class="progress-bar">
+                  <div class="progress ps-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">SQL</p>
+                <div class="progress-bar">
+                  <div class="progress SQL-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">Wordpress</p>
+                <div class="progress-bar">
+                  <div class="progress ps-progress"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="right-section">
+        <div class="right-main-content">
+          <section class="about sect">
+            <h2 class="right-title">About Me</h2>
+            <p class="para">
+              An enthusiastic Computer Science Graduate with a Master’s in
+              Business Administration (MBA) and a proven record of people
+              management skills.<br />
+              Highly knowledgeable in Computer Science fundamentals including
+              Data Structures and Algorithms, Networking, Operating Systems,
+              Software test Automation<br />
+              and Microservices along with great understanding of Agile
+              methodology. Hands-on experience in building, testing and
+              deploying applications to the cloud.
+            </p>
+          </section>
+
+          <section class="experince sect">
+            <h2 class="right-title">Experience</h2>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">Wright's Resumes and Connections</h5>
+                <p class="para">2022-Present</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">QA Assistant Intern</h5>
+                  <p class="para">
+                    Web development and Maintenance. Manual Testing the website,
+                    mobile application and documenting the issues and fixing
+                    them.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="education sect">
+            <h2 class="right-title">education</h2>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">WestCliff University</h5>
+                <p class="para">2022</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">Computer Sciences</h5>
+                  <p class="para">GPA:3.7/4</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">VJIM</h5>
+                <p class="para">2018</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">MBA</h5>
+                  <p class="para">GPA:3.5/4</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">Osmania University</h5>
+                <p class="para">2016</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">Computer Science</h5>
+                  <p class="para">GPA:3.2/4</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="project sect">
+            <h2 class="right-title">Projects</h2>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">
+                  Virtual Assistant Chatbot for Westcliff University Website
+                </h5>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">Summary</h5>
+                  <p class="para">
+                    Built a chatbot application designed to assist Westcliff
+                    University website visitors.<br />
+                    Used Python, Flask framework and SQL databases for the
+                    backend.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">Personal Travel Weather Notifier</h5>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">Summary</h5>
+                  <p class="para">
+                    Built a cloud based personal travel weather monitoring
+                    application to track weather changes outside of the user's
+                    preferred values and alert the user to send an SMS to
+                    alert.<br />
+                    Provided web and REST interfaces for the user to
+                    add/update/delete travel plans. Achieved the end goal by
+                    following Microservice Architecture with<br />
+                    Travel Updater Service, Weather Monitor Service and Alert
+                    Service and deployed on AWS.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">
+                  Android Application for Peer to Peer File Sharing
+                </h5>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">Summary</h5>
+                  <p class="para">
+                    Developed an Android application to share data with other
+                    mobile clients using FTP without needing an intermediary
+                    server.<br />
+                    Authenticated the users using SMS validation.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
